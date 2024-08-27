@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from tree.base import DecisionTree
 from metrics import *
 from sklearn.datasets import make_classification
+from sklearn.model_selection import KFold
 
 np.random.seed(42)
 
@@ -16,3 +17,14 @@ plt.scatter(X[:, 0], X[:, 1], c=y)
 
 # Write the code for Q2 a) and b) below. Show your results.
 
+X_df = pd.DataFrame(X)
+y_pds = pd.Series(y)
+y_pds = y_pds.map({0: 'red', 1: 'green'})
+
+# print(X_df.head())
+print(y_pds.head(10))
+
+train_size = round(0.7 * len(X_df))
+
+X_train, X_test = X_df[:train_size], X_df[train_size:]
+y_train, y_test = y_pds[:train_size], y_pds[train_size:]
