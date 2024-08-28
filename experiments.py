@@ -55,7 +55,7 @@ print(results_df)
 
 # Function to plot the results
 def plot(name):
-    fig, ax = plt.subplots(2, 2, figsize=(15, 12))
+    fig, axs = plt.subplots(2, 2, figsize=(15, 12))
 
     # Define markers and colors for different M values
     markers = {5: 'o', 10: 's'}  # Marker for M=5 and M=10
@@ -71,18 +71,17 @@ def plot(name):
 
     # Plot Learning Time for each combination of discrete/continuous input and real/discrete output
     for i, (is_discrete_input, is_real_output) in enumerate([(True, True), (True, False), (False, True), (False, False)]):
-        ax = ax[i//2, i%2]
         for M in [5, 10]:
             subset = results_df[(results_df['Is Input Discrete'] == is_discrete_input) & 
                                 (results_df['Is Output Real'] == is_real_output) & 
                                 (results_df['M'] == M)]
-            ax.plot(subset['N'], subset[name], marker=markers[M], color=colors[M], label=f'M={M}')
+            axs.plot(subset['N'], subset[name], marker=markers[M], color=colors[M], label=f'M={M}')
         
-        ax.set_title(titles[(is_discrete_input, is_real_output)])
-        ax.set_xlabel('N (Number of Samples)')
-        ax.set_ylabel('Average Learning Time (s)')
-        ax.legend()
-        ax.grid(True)
+        axs.set_title(titles[(is_discrete_input, is_real_output)])
+        axs.set_xlabel('N (Number of Samples)')
+        axs.set_ylabel('Average Learning Time (s)')
+        axs.legend()
+        axs.grid(True)
     fig.savefig("Time Complexity" + name + ".png", dpi = 300, bbox_inches = 'tight')
 
 plot("Train Time")
