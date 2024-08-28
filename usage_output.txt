@@ -1,0 +1,325 @@
+ ?(X1 <= -1.194)
+   Y: Leaf: Value =  2.720
+   N: ?(X4 <=  0.387)
+       Y: ?(X0 <=  1.508)
+           Y: ?(X4 <= -1.744)
+               Y: ?(X1 <=  0.539)
+                   Y: ?(X0 <=  0.051)
+                       Y: Leaf: Value =  0.657
+                       N: Leaf: Value =  0.413
+                   N: Leaf: Value =  0.963
+               N: ?(X2 <=  1.241)
+                   Y: ?(X3 <= -0.855)
+                       Y: Leaf: Value =  0.080
+                       N: Leaf: Value = -0.501
+                   N: Leaf: Value =  0.822
+           N: ?(X0 <=  1.870)
+               Y: Leaf: Value =  1.454
+               N: Leaf: Value =  0.827
+       N: ?(X0 <= -0.357)
+           Y: ?(X0 <= -0.490)
+               Y: ?(X0 <= -0.552)
+                   Y: Leaf: Value =  1.866
+                   N: Leaf: Value =  1.897
+               N: Leaf: Value =  1.159
+           N: ?(X4 <=  1.003)
+               Y: ?(X0 <=  0.861)
+                   Y: ?(X0 <=  0.546)
+                       Y: Leaf: Value =  0.344
+                       N: Leaf: Value =  0.277
+                   N: Leaf: Value =  0.787
+               N: Leaf: Value = -0.975
+Criteria : entropy
+RMSE:  0.30926365884663126
+MAE:  0.19619454429754504
+ ?(X1 <= -1.194)
+   Y: Leaf: Value =  2.720
+   N: ?(X4 <=  0.387)
+       Y: ?(X0 <=  1.508)
+           Y: ?(X4 <= -1.744)
+               Y: ?(X1 <=  0.539)
+                   Y: ?(X0 <=  0.051)
+                       Y: Leaf: Value =  0.657
+                       N: Leaf: Value =  0.413
+                   N: Leaf: Value =  0.963
+               N: ?(X2 <=  1.241)
+                   Y: ?(X3 <= -0.855)
+                       Y: Leaf: Value =  0.080
+                       N: Leaf: Value = -0.501
+                   N: Leaf: Value =  0.822
+           N: ?(X0 <=  1.870)
+               Y: Leaf: Value =  1.454
+               N: Leaf: Value =  0.827
+       N: ?(X0 <= -0.357)
+           Y: ?(X0 <= -0.490)
+               Y: ?(X0 <= -0.552)
+                   Y: Leaf: Value =  1.866
+                   N: Leaf: Value =  1.897
+               N: Leaf: Value =  1.159
+           N: ?(X4 <=  1.003)
+               Y: ?(X0 <=  0.861)
+                   Y: ?(X0 <=  0.546)
+                       Y: Leaf: Value =  0.344
+                       N: Leaf: Value =  0.277
+                   N: Leaf: Value =  0.787
+               N: Leaf: Value = -0.975
+Criteria : gini_index
+RMSE:  0.30926365884663126
+MAE:  0.19619454429754504
+ ?(X0 <=  0.516)
+   Y: ?(X1 <=  1.008)
+       Y: ?(X2 <= -0.450)
+           Y: ?(X0 <= -0.631)
+               Y: Leaf: Value =  0.000
+               N: ?(X0 <= -0.271)
+                   Y: Leaf: Value =  1.000
+                   N: ?(X0 <=  0.280)
+                       Y: Leaf: Value =  2.000
+                       N: Leaf: Value =  1.000
+           N: ?(X4 <=  2.998)
+               Y: ?(X2 <= -0.132)
+                   Y: Leaf: Value =  4.000
+                   N: ?(X2 <=  0.406)
+                       Y: Leaf: Value =  1.000
+                       N: Leaf: Value =  1.000
+               N: Leaf: Value =  4.000
+       N: ?(X4 <=  0.701)
+           Y: Leaf: Value =  4.000
+           N: ?(X0 <= -0.351)
+               Y: Leaf: Value =  3.000
+               N: Leaf: Value =  4.000
+   N: ?(X1 <= -1.946)
+       Y: Leaf: Value =  3.000
+       N: ?(X4 <= -0.727)
+           Y: Leaf: Value =  4.000
+           N: ?(X0 <=  0.924)
+               Y: ?(X0 <=  0.598)
+                   Y: Leaf: Value =  2.000
+                   N: Leaf: Value =  4.000
+               N: Leaf: Value =  2.000
+Criteria : entropy
+Accuracy:  0.9333333333333333
+Precision:  1.0
+Recall:  1.0
+Precision:  0.8333333333333334
+Recall:  1.0
+Precision:  1.0
+Recall:  1.0
+Precision:  1.0
+Recall:  1.0
+Precision:  1.0
+Recall:  0.3333333333333333
+ ?(X0 <=  0.516)
+   Y: ?(X1 <=  1.008)
+       Y: ?(X2 <= -0.736)
+           Y: ?(X0 <= -0.415)
+               Y: Leaf: Value =  0.000
+               N: Leaf: Value =  2.000
+           N: ?(X4 <=  2.998)
+               Y: ?(X2 <= -0.132)
+                   Y: ?(X2 <= -0.595)
+                       Y: Leaf: Value =  1.000
+                       N: Leaf: Value =  2.000
+                   N: ?(X2 <=  0.406)
+                       Y: Leaf: Value =  1.000
+                       N: Leaf: Value =  1.000
+               N: Leaf: Value =  4.000
+       N: ?(X2 <= -0.650)
+           Y: ?(X0 <= -0.866)
+               Y: Leaf: Value =  4.000
+               N: Leaf: Value =  3.000
+           N: Leaf: Value =  4.000
+   N: ?(X1 <= -1.946)
+       Y: Leaf: Value =  3.000
+       N: ?(X4 <= -0.727)
+           Y: Leaf: Value =  4.000
+           N: ?(X0 <=  0.924)
+               Y: ?(X0 <=  0.598)
+                   Y: Leaf: Value =  2.000
+                   N: Leaf: Value =  4.000
+               N: Leaf: Value =  2.000
+Criteria : gini_index
+Accuracy:  0.9
+Precision:  1.0
+Recall:  0.9
+Precision:  0.8333333333333334
+Recall:  1.0
+Precision:  0.8333333333333334
+Recall:  1.0
+Precision:  1.0
+Recall:  1.0
+Precision:  1.0
+Recall:  0.3333333333333333
+ ?(X1_0 in [np.False_, np.True_])
+   False: ?(X1_4 in [np.False_, np.True_])
+       False: ?(X4_3 in [np.False_, np.True_])
+           False: ?(X3_2 in [np.False_, np.True_])
+               False: ?(X3_0 in [np.True_, np.False_])
+                   True: Leaf: Value =  0.000
+                   False: ?(X2_2 in [np.False_, np.True_])
+                       False: Leaf: Value =  2.000
+                       True: Leaf: Value =  0.000
+               True: ?(X0_4 in [np.False_, np.True_])
+                   False: Leaf: Value =  3.000
+                   True: Leaf: Value =  0.000
+           True: ?(X0_1 in [np.True_, np.False_])
+               True: Leaf: Value =  3.000
+               False: Leaf: Value =  1.000
+       True: ?(X2_3 in [np.True_, np.False_])
+           True: Leaf: Value =  1.000
+           False: ?(X0_4 in [np.False_, np.True_])
+               False: Leaf: Value =  3.000
+               True: Leaf: Value =  1.000
+   True: ?(X4_1 in [np.False_, np.True_])
+       False: ?(X0_2 in [np.False_, np.True_])
+           False: ?(X0_3 in [np.True_, np.False_])
+               True: ?(X3_1 in [np.True_, np.False_])
+                   True: Leaf: Value =  0.000
+                   False: Leaf: Value =  4.000
+               False: Leaf: Value =  4.000
+           True: Leaf: Value =  0.000
+       True: ?(X0_0 in [np.False_])
+           False: ?(X0_0 in [np.False_])
+               False: ?(X0_0 in [np.False_])
+                   False: ?(X0_0 in [np.False_])
+                       False: Leaf: Value =  0.000
+Criteria : entropy
+Accuracy:  0.9666666666666667
+Precision:  0.875
+Recall:  1.0
+Precision:  1.0
+Recall:  1.0
+Precision:  1.0
+Recall:  0.8888888888888888
+Precision:  1.0
+Recall:  1.0
+Precision:  1.0
+Recall:  1.0
+ ?(X1_4 in [np.False_, np.True_])
+   False: ?(X1_0 in [np.False_, np.True_])
+       False: ?(X4_3 in [np.False_, np.True_])
+           False: ?(X0_1 in [np.False_, np.True_])
+               False: ?(X0_3 in [np.False_, np.True_])
+                   False: ?(X0_4 in [np.False_, np.True_])
+                       False: Leaf: Value =  3.000
+                       True: Leaf: Value =  0.000
+                   True: ?(X2_2 in [np.False_, np.True_])
+                       False: Leaf: Value =  2.000
+                       True: Leaf: Value =  0.000
+               True: Leaf: Value =  2.000
+           True: ?(X0_1 in [np.True_, np.False_])
+               True: Leaf: Value =  3.000
+               False: Leaf: Value =  1.000
+       True: ?(X4_1 in [np.False_, np.True_])
+           False: ?(X0_2 in [np.False_, np.True_])
+               False: ?(X0_3 in [np.True_, np.False_])
+                   True: ?(X3_1 in [np.True_, np.False_])
+                       True: Leaf: Value =  0.000
+                       False: Leaf: Value =  4.000
+                   False: Leaf: Value =  4.000
+               True: Leaf: Value =  0.000
+           True: ?(X0_0 in [np.False_])
+               False: ?(X0_0 in [np.False_])
+                   False: ?(X0_0 in [np.False_])
+                       False: Leaf: Value =  0.000
+   True: ?(X2_3 in [np.True_, np.False_])
+       True: Leaf: Value =  1.000
+       False: ?(X0_4 in [np.False_, np.True_])
+           False: Leaf: Value =  3.000
+           True: Leaf: Value =  1.000
+Criteria : gini_index
+Accuracy:  0.9333333333333333
+Precision:  0.8571428571428571
+Recall:  0.8571428571428571
+Precision:  1.0
+Recall:  1.0
+Precision:  1.0
+Recall:  0.8888888888888888
+Precision:  1.0
+Recall:  1.0
+Precision:  0.8333333333333334
+Recall:  1.0
+ ?(X2_1 in [np.False_, np.True_])
+   False: ?(X1_4 in [np.True_, np.False_])
+       True: ?(X2_2 in [np.True_, np.False_])
+           True: ?(X0_2 in [np.False_, np.True_])
+               False: ?(X0_1 in [np.False_, np.True_])
+                   False: Leaf: Value =  1.006
+                   True: Leaf: Value =  0.836
+               True: Leaf: Value = -0.203
+           False: Leaf: Value =  2.075
+       False: ?(X3_0 in [np.True_, np.False_])
+           True: ?(X2_2 in [np.True_, np.False_])
+               True: Leaf: Value = -0.577
+               False: ?(X1_1 in [np.True_, np.False_])
+                   True: Leaf: Value =  1.442
+                   False: ?(X0_0 in [np.True_, np.False_])
+                       True: Leaf: Value =  1.168
+                       False: Leaf: Value =  0.324
+           False: ?(X0_4 in [np.True_, np.False_])
+               True: ?(X3_1 in [np.False_, np.True_])
+                   False: ?(X2_0 in [np.False_, np.True_])
+                       False: Leaf: Value = -1.069
+                       True: Leaf: Value = -0.488
+                   True: Leaf: Value = -0.326
+               False: ?(X4_0 in [np.False_, np.True_])
+                   False: ?(X3_1 in [np.True_, np.False_])
+                       True: Leaf: Value =  0.553
+                       False: Leaf: Value = -0.191
+                   True: Leaf: Value =  1.201
+   True: ?(X1_1 in [np.True_, np.False_])
+       True: Leaf: Value = -2.472
+       False: ?(X0_1 in [np.False_, np.True_])
+           False: ?(X1_0 in [np.True_, np.False_])
+               True: ?(X0_2 in [np.True_, np.False_])
+                   True: Leaf: Value = -0.797
+                   False: Leaf: Value = -0.156
+               False: ?(X0_2 in [np.True_, np.False_])
+                   True: Leaf: Value =  0.338
+                   False: Leaf: Value =  0.871
+           True: Leaf: Value = -2.038
+Criteria : entropy
+RMSE:  0.18441200946394284
+MAE:  0.09838060283777082
+ ?(X2_1 in [np.False_, np.True_])
+   False: ?(X1_4 in [np.True_, np.False_])
+       True: ?(X2_2 in [np.True_, np.False_])
+           True: ?(X0_2 in [np.False_, np.True_])
+               False: ?(X0_1 in [np.False_, np.True_])
+                   False: Leaf: Value =  1.006
+                   True: Leaf: Value =  0.836
+               True: Leaf: Value = -0.203
+           False: Leaf: Value =  2.075
+       False: ?(X3_0 in [np.True_, np.False_])
+           True: ?(X2_2 in [np.True_, np.False_])
+               True: Leaf: Value = -0.577
+               False: ?(X1_1 in [np.True_, np.False_])
+                   True: Leaf: Value =  1.442
+                   False: ?(X0_0 in [np.True_, np.False_])
+                       True: Leaf: Value =  1.168
+                       False: Leaf: Value =  0.324
+           False: ?(X0_4 in [np.True_, np.False_])
+               True: ?(X3_1 in [np.False_, np.True_])
+                   False: ?(X2_0 in [np.False_, np.True_])
+                       False: Leaf: Value = -1.069
+                       True: Leaf: Value = -0.488
+                   True: Leaf: Value = -0.326
+               False: ?(X4_0 in [np.False_, np.True_])
+                   False: ?(X3_1 in [np.True_, np.False_])
+                       True: Leaf: Value =  0.553
+                       False: Leaf: Value = -0.191
+                   True: Leaf: Value =  1.201
+   True: ?(X1_1 in [np.True_, np.False_])
+       True: Leaf: Value = -2.472
+       False: ?(X0_1 in [np.False_, np.True_])
+           False: ?(X1_0 in [np.True_, np.False_])
+               True: ?(X0_2 in [np.True_, np.False_])
+                   True: Leaf: Value = -0.797
+                   False: Leaf: Value = -0.156
+               False: ?(X0_2 in [np.True_, np.False_])
+                   True: Leaf: Value =  0.338
+                   False: Leaf: Value =  0.871
+           True: Leaf: Value = -2.038
+Criteria : gini_index
+RMSE:  0.18441200946394284
+MAE:  0.09838060283777082
