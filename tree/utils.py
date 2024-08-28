@@ -76,7 +76,7 @@ def opt_split_real(X: pd.Series, y: pd.Series, is_real: bool, criterion: str) ->
     
     opt_split_val, opt_gain = None, -float('inf')
 
-    if is_real:
+    if is_real: #real input
         sorted_indices = np.argsort(X)
         sorted_X = X.iloc[sorted_indices]
         sorted_y = y.iloc[sorted_indices]
@@ -87,7 +87,7 @@ def opt_split_real(X: pd.Series, y: pd.Series, is_real: bool, criterion: str) ->
             gain = information_gain(sorted_y, left, 'mse')
 
             if gain > opt_gain: opt_split_val, opt_gain = split_val, gain
-    else:
+    else: # discrete input
         opt_gain = information_gain(y, X, criterion)
 
     return opt_split_val, opt_gain
@@ -97,7 +97,7 @@ def opt_split_discrete(X: pd.Series, y: pd.Series, is_real: bool, criterion: str
     
     opt_split_val, opt_gain = None, -float('inf')
 
-    if is_real:
+    if is_real: # real input
         sorted_indices = np.argsort(X)
         sorted_X = X.iloc[sorted_indices]
         sorted_y = y.iloc[sorted_indices]
@@ -108,7 +108,7 @@ def opt_split_discrete(X: pd.Series, y: pd.Series, is_real: bool, criterion: str
             gain = information_gain(sorted_y, left, criterion)
 
             if gain > opt_gain: opt_split_val, opt_gain = split_val, gain
-    else:
+    else: # dsicrete input
         opt_gain = information_gain(y, X, criterion)
     return opt_split_val, opt_gain
 
