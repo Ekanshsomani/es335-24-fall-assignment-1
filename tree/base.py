@@ -50,7 +50,8 @@ def create_Tree(X: pd.DataFrame, y: pd.Series, depth: int, max_depth: int, is_re
 def predict_single(root: Node, X_row: pd.Series):
     curr = root
 
-    while curr.children:
+    while curr.threshold is not None:
+
         feature_val = X_row[curr.feature]
 
         if isinstance(curr.threshold, (int, float)):
