@@ -1,0 +1,97 @@
+Training Variance:  0.005899495401093999
+Prediction Variance:  0.0
+Training Variance:  0.013522862699207711
+Prediction Variance:  2.7065949944295022e-05
+Training Variance:  0.0007323637078494963
+Prediction Variance:  4.39488220662396e-05
+Training Variance:  0.0006138627443685133
+Prediction Variance:  3.091045589877063e-05
+Training Variance:  0.02016856292025043
+Prediction Variance:  5.378097966968198e-07
+Training Variance:  0.015644005961588745
+Prediction Variance:  3.6566269967705826e-05
+Training Variance:  0.00037845460728173447
+Prediction Variance:  3.6280378834716335e-05
+Training Variance:  0.009984946672261685
+Prediction Variance:  0.0
+Training Variance:  0.0808749796211714
+Prediction Variance:  0.0
+Training Variance:  0.023013102459382633
+Prediction Variance:  4.1568591124511535e-05
+Training Variance:  0.018438763967436798
+Prediction Variance:  4.253465178610187e-05
+Training Variance:  0.004999497344152184
+Prediction Variance:  7.297931397766256e-06
+Training Variance:  0.3091642914778403
+Prediction Variance:  5.4261750960904465e-05
+Training Variance:  0.170147069597571
+Prediction Variance:  1.0886568828835961e-05
+Training Variance:  0.00927540919718063
+Prediction Variance:  5.597745371233032e-06
+Training Variance:  0.034327882526718485
+Prediction Variance:  3.530774226116288e-05
+Training Variance:  0.0019772094536594726
+Prediction Variance:  5.426009516264053e-05
+Training Variance:  0.005337221178453749
+Prediction Variance:  5.436533624308343e-05
+Training Variance:  0.02936738066790036
+Prediction Variance:  5.429155964975507e-05
+Training Variance:  0.09924324327290733
+Prediction Variance:  2.4080523884448568e-05
+Training Variance:  0.011316843523117211
+Prediction Variance:  5.426671850727871e-05
+Training Variance:  0.005462085436306552
+Prediction Variance:  9.657699908732158e-06
+Training Variance:  1.5138828702108384
+Prediction Variance:  9.720212234596047e-05
+Training Variance:  1.2127276831496123
+Prediction Variance:  2.21967558218239e-05
+Training Variance:  0.0033298920549214017
+Prediction Variance:  4.090845536413529e-05
+Training Variance:  0.00028017988242683915
+Prediction Variance:  4.076458565628451e-05
+Training Variance:  0.37890796510299024
+Prediction Variance:  7.27431077317912e-05
+Training Variance:  2.6210757185333855
+Prediction Variance:  5.710738758403346e-05
+Training Variance:  0.0014845530604361556
+Prediction Variance:  5.783187829264432e-06
+Training Variance:  0.015070492087728678
+Prediction Variance:  7.995604302221989e-05
+Training Variance:  2.916187283382252
+Prediction Variance:  4.606383422217024e-05
+Training Variance:  5.908145784562457
+Prediction Variance:  5.42253292350223e-05
+     N   M  Is Input Discrete  Is Output Real  Train Time  Prediction Time
+0   10   5               True            True    0.450527         0.000000
+1   10   5               True           False    0.452890         0.003679
+2   10   5              False            True    0.522401         0.006545
+3   10   5              False           False    0.233673         0.011870
+4   10  10               True            True    0.704417         0.000519
+5   10  10               True           False    0.386308         0.004276
+6   10  10              False            True    1.012768         0.006183
+7   10  10              False           False    0.460841         0.000000
+8   20   5               True            True    0.885745         0.000000
+9   20   5               True           False    0.683319         0.007216
+10  20   5              False            True    0.727794         0.004612
+11  20   5              False           False    1.221959         0.008577
+12  20  10               True            True    1.389980         0.005209
+13  20  10               True           False    1.251626         0.002333
+14  20  10              False            True    2.456676         0.001673
+15  20  10              False           False    0.876524         0.011424
+16  30   5               True            True    0.172785         0.005209
+17  30   5               True           False    0.257233         0.010427
+18  30   5              False            True    1.208093         0.005210
+19  30   5              False           False    1.758472         0.006008
+20  30  10               True            True    0.449768         0.005209
+21  30  10               True           False    0.363214         0.013424
+22  30  10              False            True    4.911142         0.017206
+23  30  10              False           False    3.981157         0.003331
+24  50   5               True            True    0.210817         0.008129
+25  50   5               True           False    0.399131         0.007709
+26  50   5              False            True    4.761959         0.024088
+27  50   5              False           False    5.504307         0.010677
+28  50  10               True            True    0.726763         0.013934
+29  50  10               True           False    0.639457         0.012248
+30  50  10              False            True    9.595685         0.009566
+31  50  10              False           False    9.878202         0.005207

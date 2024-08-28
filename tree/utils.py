@@ -88,7 +88,7 @@ def opt_split_real(X: pd.Series, y: pd.Series, is_real: bool, criterion: str) ->
 
             if gain > opt_gain: opt_split_val, opt_gain = split_val, gain
     else: # discrete input
-        opt_gain = information_gain(y, X, criterion)
+        opt_gain = information_gain(y, X, 'mse')
 
     return opt_split_val, opt_gain
 
